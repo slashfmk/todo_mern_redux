@@ -1,0 +1,23 @@
+
+.Nav {
+
+  &__list {
+    text-decoration: none;
+
+    & li {
+      display: inline-block;
+      margin: 0 1rem;
+
+      & a:hover, & > .active {
+        color: $color-primary
+      }
+
+      & a:link, & a{
+        color: #ccc;
+        text-decoration: none;
+      }
+
+    }
+  }
+
+}

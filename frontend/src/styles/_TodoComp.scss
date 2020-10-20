@@ -1,0 +1,25 @@
+
+.TodoComp{
+  word-break: break-all;
+  font-size: 1.5rem;
+  border: solid #ccc 0;
+ // background-color: $color-secondary;
+  margin: .2rem;
+  padding: .9rem;
+  transition: all .5s;
+
+  &:hover, &:active{
+    color: #fff;
+    background-color: $color-primary;
+  }
+
+
+}
+
+.resolve{
+  background-color: $color-yellow;
+}
+
+.unresolve{
+  background-color: $color-secondary;
+}
